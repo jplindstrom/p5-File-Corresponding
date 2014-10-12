@@ -189,6 +189,7 @@ Failures will result in a die.
 =cut
 
 package File::Corresponding;
+
 use Moose;
 
 

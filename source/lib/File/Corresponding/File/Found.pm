@@ -9,6 +9,7 @@ system, given a matching profile
 
 use strict;
 package File::Corresponding::File::Found;
+
 use Moose;
 
 use Data::Dumper;

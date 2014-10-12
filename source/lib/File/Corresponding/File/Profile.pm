@@ -8,6 +8,7 @@ and translates to corresponding files
 
 use strict;
 package File::Corresponding::File::Profile;
+
 use Moose;
 
 use Moose::Util::TypeConstraints;

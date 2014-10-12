@@ -42,6 +42,7 @@ But now it's written, and it works, so it stays.
 =cut
 
 package File::Corresponding::Config::Find;
+
 use Moose;
 
 

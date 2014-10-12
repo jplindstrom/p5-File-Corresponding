@@ -11,9 +11,8 @@ together.
 =cut
 
 package File::Corresponding::Group;
+
 use Moose;
-
-
 
 use Data::Dumper;
 use File::Path;
