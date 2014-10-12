@@ -54,7 +54,7 @@ delimiters and any needed flags.
 
 subtype RegexRef
         => as RegexpRef
-        => where { ref($_) eq "Regexp" };  #print "JPL: where: ($_) (" . ref($_) . ")\n"; 
+        => where { ref($_) eq "Regexp" };  #print "JPL: where: ($_) (" . ref($_) . ")\n";
 coerce RegexRef
         => from 'Str'
         => via { regex_from_qr($_) };
