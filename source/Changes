@@ -1,0 +1,32 @@
+
+Feature oriented Revision history for File-Corresponding
+==========================================================
+
+
+{{$NEXT}}
+
+
+0.003
+-----
+
+* Minor doc fixes
+
+
+
+0.002
+-----
+
+* Added deps
+
+* Renamed rouge Config::Find module (oops)
+
+* Lots of docs cleanup
+
+
+
+0.001
+-----
+
+* First release. Initial feature complete, let's see how a release
+  looks like on CPAN.
+
