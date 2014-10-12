@@ -5,6 +5,12 @@ Feature oriented Revision history for File-Corresponding
 
 {{$NEXT}}
 
+* Test release
+
+
+
+0.004 -- 2014-10-12 14:02:45 UTC
+
 * Use Dist::Zilla
 
 * Fix brittle test by creating File::Class object the same way in test
