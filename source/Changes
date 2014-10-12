@@ -5,6 +5,12 @@ Feature oriented Revision history for File-Corresponding
 
 {{$NEXT}}
 
+* Use Dist::Zilla
+
+* Fix brittle test by creating File::Class object the same way in test
+  and source
+
+
 
 0.003
 -----
@@ -29,4 +35,3 @@ Feature oriented Revision history for File-Corresponding
 
 * First release. Initial feature complete, let's see how a release
   looks like on CPAN.
-
