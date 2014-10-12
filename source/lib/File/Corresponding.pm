@@ -143,7 +143,7 @@ Only existing files are reported.
 
 =head1 AUTHOR
 
-Johan Lindström, C<< <johanl[ÄT]DarSerMan.com> >>
+Johan Lindstrom, C<< <johanl[AT]cpan.org> >>
 
 
 
@@ -171,7 +171,7 @@ translation from Controller/Book.pm to t/controller-book.t and back.
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2007 Johan Lindström, All Rights Reserved.
+Copyright 2007- Johan Lindstrom, All Rights Reserved.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
