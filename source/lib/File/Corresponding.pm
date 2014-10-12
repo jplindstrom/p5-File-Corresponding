@@ -190,7 +190,6 @@ Failures will result in a die.
 
 package File::Corresponding;
 use Moose;
-our $VERSION = 0.003;
 
 
 
