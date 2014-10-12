@@ -263,7 +263,7 @@ sub load_config_file {
         $file_groups->map( sub {
             my $group = $_;
             my $name = $group->{name} || "";
-            
+
             my $file_profiles = $group->{file_profiles} or $die->("file_profiles");
             my $profiles = $file_profiles->map( sub {
                 File::Corresponding::File::Profile->new($_),
@@ -275,7 +275,7 @@ sub load_config_file {
             });
         }),
     );
-    
+
 
     #print Dumper($config); use Data::Dumper;
 

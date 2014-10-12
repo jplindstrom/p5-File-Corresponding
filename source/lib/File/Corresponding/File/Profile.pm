@@ -84,10 +84,10 @@ sub matching_file_fragment {
     my $self = shift;
     my ($file) = @_;
     my $regex = $self->regex;
-    
+
     my $file_base = $file;
     $file_base =~ s/$regex// and return ($file_base, $1);
-    
+
     return ();
 }
 
@@ -110,9 +110,10 @@ sub new_found_if_file_exists {
     my $file = file($file_base, sprintf($sprintf, $fragment));
 
     -e $file or return ();
-    
+
     return File::Corresponding::File::Found->new({
-        file             => $file,
+        # re-coerce into File object to make test happy
+        file             => $file . "",
         matching_profile => $matching_profile,
         found_profile    => $self,
     });

@@ -74,7 +74,7 @@ sub corresponding {
                 $file_base,
                 $fragment,
             ) });
-    
+
     return $found_files;
 }
 
@@ -89,12 +89,12 @@ matches $file, or an empty list if there is no match.
 sub matching_file_fragment_profile {
     my $self = shift;
     my ($file) = @_;
-    
+
     for my $profile ($self->file_profiles->flatten) {
         my ($file_base, $file_fragment) = $profile->matching_file_fragment($file);
         $file_base and return ($file_base, $file_fragment, $profile);
     }
-    
+
     return ();
 }
 
